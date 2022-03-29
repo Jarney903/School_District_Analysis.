@@ -28,11 +28,11 @@ How is the district summary affected?
 
 This can be seen in Figures 1 & 2:
 ### Figure 1: Original School District Analysis
-![Original]()
+![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_School_District_summary.png)
 <br />
 
 ### Figure 2: New School District Analysis
-![New]()
+![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/New_School_District_Summary.png)
 <br />
 
 How is the school summary affected?
@@ -41,11 +41,11 @@ How is the school summary affected?
 
 This can be seen in Figures 3 & 4:
 ### Figure 3: Original School Summary
-![Original]()
+![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_School_Summary.png)
 <br />
 
 ### Figure 4: New School Summary
-![New]()
+![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/New_School_Summary.png)
 <br />
 
 
@@ -55,11 +55,11 @@ How does replacing the ninth graders’ math and reading scores affect Thomas Hi
 
 This can be seen in Figures 5 & 6:
 ### Figure 5: Original Top 5 School
-![Original]()
+![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_Top_5_schools.png)
 <br />
 
 ### Figure 6: New Top 5 Schools
-![New]()
+![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/New_Top_5_Schools.png)
 <br />
 
 How does replacing the ninth-grade scores affect the following:
@@ -71,11 +71,11 @@ How does replacing the ninth-grade scores affect the following:
 
 This can be seen in Figures 7 & 8:
 ### Figure 7: Original Schools by Spending
-![Original]()
+![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_Spending_Summary.png)
 <br />
 
 ### Figure 6: New Schools by Spending
-![New]()
+![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/New_Spending_Summary.png)
 <br />
 
 3. Scores by school size
@@ -83,11 +83,11 @@ This can be seen in Figures 7 & 8:
 
 This can be seen in Figures 9 & 10:
 ### Figure 9: Original Schools Size
-![Original]()
+![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_School_Size_Summary1.png)
 <br />
 
 ### Figure 10: New Schools by Size
-![New]()
+![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/NEW_School_Size_Summary.png)
 <br />
 
 4. Scores by school type
@@ -95,18 +95,24 @@ This can be seen in Figures 9 & 10:
 
 This can be seen in Figures 11 & 12:
 ### Figure 11: Original Schools by Type
-![Original]()
+![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_School_by_Type.png)
 <br />
 
 ### Figure 12: New Schools by Type
-![New]()
+![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/New_School_by_Type.png)
 <br />
 
-
- 
-
 ## School District Analysis Summary
-The "PyPol_Challenge.py" script provided in the Git Hub Election_Analysis repository can be used to audit any election with some modification.
-- Overview of modifications required are:
-  - For future loading of results to the script provided, ensure in line #9: file_to_load = os.path.join("Resources", "election_results.csv") that the subfolder containing the election results CSV file are correctly input using the correct file path, folder name, and file name. In this instance, the “Resources” folder was a direct subfolder within the main folder holding the "PyPol_Challenge.py" 
-
+Summarize changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
+   -  The math and reading scores for ninth graders are no longer in the analysis
+   -  The school summary for Thomas High School is affected in the following ways:
+         -  The average math score decreased by 0.07 points to 83.35%
+         -  The average reading score increased by 0.05 points to 83.89%
+         -  The percentatge of students passing math decreased by 0.1 points to 93.18%
+         -  The percentatge of students passing reading decreased by 0.3 points to 97.02%
+         -  The overall percentage of passing studends decreased by 0.3 points to 90.63%
+   -  The district summary is affected in the following ways:
+         -  The average math score decreased by 0.1 points to 78.9%
+         -  The percentatge of students passing math decreased by 0.2 points to 74.8%
+         -  The percentatge of students passing reading decreased by 0.1 points to 85.7%
+         -  The overall percentage of passing studends decreased by 0.3 points to 64.9%
