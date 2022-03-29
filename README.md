@@ -74,7 +74,7 @@ This can be seen in Figures 7 & 8:
 ![Original](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/Original_Spending_Summary.png)
 <br />
 
-### Figure 6: New Schools by Spending
+### Figure 8: New Schools by Spending
 ![New](https://github.com/Jarney903/School_District_Analysis./blob/main/Resources/New_Spending_Summary.png)
 <br />
 
